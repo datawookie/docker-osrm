@@ -3,13 +3,13 @@ See the official OSRM image [here](https://hub.docker.com/r/osrm/osrm-backend/).
 To build:
 
 ```
-$ docker build -t osrm:latest .
+$ docker build -t osrm .
 ```
 
 To run:
 
 ```
-$ docker run -p 5000:5000 -v `pwd`:/data osrm:latest map.xml
+$ docker run -p 5000:5000 -v `pwd`:/data osrm map.xml
 ```
 
 ## Other Implementations
