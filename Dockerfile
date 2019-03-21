@@ -18,7 +18,7 @@ RUN \
 		libbz2-dev
 
 RUN \
-	git clone --branch v5.12.0 https://github.com/Project-OSRM/osrm-backend.git /osrm-backend && \
+	git clone --branch v5.18.0 https://github.com/Project-OSRM/osrm-backend.git /osrm-backend && \
 	cd /osrm-backend && \
 	mkdir build && \
 	cd build/ && \
