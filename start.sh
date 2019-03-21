@@ -16,7 +16,7 @@ osrm-contract $DATAPATH/$1.osrm
 
 # Start server.
 #
-osrm-routed --shared-memory $DATAPATH/$1.osrm &
+osrm-routed --shared-memory --max-table-size=100000 $DATAPATH/$1.osrm &
 
 server=$!
 
